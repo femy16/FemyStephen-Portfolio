@@ -67,17 +67,35 @@ body{
 .name{
     font-size:40px;
 }
-#about{
-    background-color: #e6e6e6;
-}
-.abouthead{
-    padding-top:40px;
+/*#about{*/
+/*    background-color: #e6e6e6;*/
+/*}*/
+.sectionhead{
+    padding-top:80px;
     font-family: 'Courgette', cursive;
 }
 .discri{
     margin-top:50px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Courgette', cursive;
     font-size: 18px;
+}
+.projects{
+    text-align:center;
+    width:200px;
+}
+.workbox h5{
+    padding:10px;
+}
+.workbox p{
+    padding:10px;
+}
+.workbox img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    width:150px;
+    height:150px;
 }
 @media only screen and (max-width: 768px) {
 .navbar{
