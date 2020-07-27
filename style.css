@@ -7,13 +7,7 @@
 
 }
 
-/*.navbar-fixed-top .container {*/
-    
-/*    text-align: right;*/
-/*    margin-right: 1%;*/
-/*    margin-top: 1%;*/
 
-/*}*/
 #landing-view {
     background-attachment: fixed;
     background-image: url('images/landing.jpg');
@@ -67,21 +61,27 @@ body{
 .name{
     font-size:40px;
 }
-/*#about{*/
-/*    background-color: #e6e6e6;*/
-/*}*/
+#about{
+    padding-bottom:20px;
+}
 .sectionhead{
     padding-top:80px;
     font-family: 'Courgette', cursive;
 }
 .discri{
-    margin-top:50px;
+    margin-top:40px;
     font-family: 'Courgette', cursive;
     font-size: 18px;
 }
 .projects{
+    background-color: #e6e6e6;
     text-align:center;
-    width:200px;
+    /*width:200px;*/
+}
+.workss{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .workbox h5{
     padding:10px;
@@ -97,6 +97,42 @@ body{
     width:150px;
     height:150px;
 }
+
+
+.arthead{
+    text-align:center;
+    font-family: 'Courgette', cursive;
+}
+
+
+.artrow{
+    
+    margin-top: 40Px;
+    margin-bottom: 30px;
+    padding-top:20px;
+    
+}
+.artrow img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recart img{
+    width:330px;
+    height:305px;
+}
+.miniart img{
+    width:320px;
+    height:285px;
+    padding-top:5px;
+}
+h4{
+    padding-top:20px;
+    /*text-align:center;*/
+    font-family: 'Courgette', cursive;
+    
+}
+
 @media only screen and (max-width: 768px) {
 .navbar{
    text-align:left;
