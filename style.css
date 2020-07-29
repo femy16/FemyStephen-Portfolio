@@ -76,6 +76,7 @@ body{
 .projects{
     background-color: #e6e6e6;
     text-align:center;
+    height:245px;
     /*width:200px;*/
 }
 .workss{
@@ -97,8 +98,24 @@ body{
     width:150px;
     height:150px;
 }
+/*.skillbox{*/
+/*    border-style: ridge;*/
+/*}*/
+.skills{
+    text-align:center;
+    margin-top:40px;
+    font-family: 'Courgette', cursive;
+    font-size: 22px;
+    border-style: ridge;
+}
+ul {
+   
+  list-style-position: inside;
+}
 
-
+li{
+    padding-top:20px;
+}
 .arthead{
     text-align:center;
     font-family: 'Courgette', cursive;
@@ -124,13 +141,31 @@ body{
 .miniart img{
     width:320px;
     height:285px;
-    padding-top:5px;
+    /*padding-top:5px;*/
 }
 h4{
     padding-top:20px;
     /*text-align:center;*/
     font-family: 'Courgette', cursive;
     
+}
+footer{
+    padding-top:80px;
+}
+.footicon{
+   text-align:center; 
+   font-family: 'Courgette', cursive;
+   font-size: 22px;
+}
+.footer_social {
+     
+   color:black;
+    font-size: 40px;
+    
+  margin-left: auto;
+  margin-right: auto;
+ 
+  /*width: 50%;*/
 }
 
 @media only screen and (max-width: 768px) {
