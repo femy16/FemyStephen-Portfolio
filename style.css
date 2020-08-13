@@ -1,9 +1,9 @@
 .navbar {
     background-color: #e6e6e6;
-    text-align:right;
-    position:fixed;
-    z-index:2;
-    width:100%;
+    text-align: right;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
 
 }
 
@@ -19,10 +19,10 @@
     z-index: 1;
 }
 
-body{
-    
+body {
+
     /*background-color: #fdfdfd;*/
-     background-color: #e6e6e6;
+    background-color: #e6e6e6;
     width: 100%;
 }
 
@@ -47,129 +47,319 @@ body{
     /*padding-left: 40px;*/
     padding-right: 40px;
 }
-.headercontainer{
-   /*margin-top:100px;*/
-   text-align:left;
-   padding-left: 50px;
-   font-family: 'Courgette', cursive;
-    
+
+.headercontainer {
+    /*margin-top:100px;*/
+    text-align: left;
+    padding-left: 50px;
+    font-family: 'Courgette', cursive;
+
 }
-.title{
-    font-size:25px;
-    
+
+.title {
+    font-size: 25px;
+
 }
-.name{
-    font-size:40px;
+
+.name {
+    font-size: 40px;
 }
-#about{
-    padding-bottom:20px;
+
+#about {
+    padding-bottom: 20px;
 }
-.sectionhead{
-    padding-top:80px;
+ .aboutsectionhead {
+   padding-top: 80px;
+    font-family: 'Courgette', cursive;
+    }
+
+.sectionhead {
+    padding-top: 80px;
     font-family: 'Courgette', cursive;
 }
-.discri{
-    margin-top:40px;
+
+.discri {
+    margin-top: 40px;
     font-family: 'Courgette', cursive;
     font-size: 18px;
 }
-.projects{
+
+.aboutrow img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.projects {
     background-color: #e6e6e6;
-    text-align:center;
-    height:245px;
+    text-align: center;
+    height: 245px;
     /*width:200px;*/
 }
-.workss{
+
+.workss {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-.workbox h5{
-    padding:10px;
+
+.workbox h5 {
+    padding: 10px;
 }
-.workbox p{
-    padding:10px;
+
+.workbox p {
+    padding: 10px;
 }
-.workbox img{
+
+.workbox img {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-    width:150px;
-    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 150px;
+    height: 150px;
 }
+
 /*.skillbox{*/
+
 /*    border-style: ridge;*/
+
 /*}*/
-.skills{
-    text-align:center;
-    margin-top:40px;
+
+.skills {
+    text-align: center;
+    margin-top: 40px;
     font-family: 'Courgette', cursive;
     font-size: 22px;
     border-style: ridge;
 }
+
 ul {
-   
-  list-style-position: inside;
+
+    list-style-position: inside;
 }
 
-li{
-    padding-top:20px;
+li {
+    padding-top: 20px;
 }
-.arthead{
-    text-align:center;
+
+.arthead {
+    text-align: center;
     font-family: 'Courgette', cursive;
 }
 
 
-.artrow{
-    
+.artrow {
+
     margin-top: 40Px;
     margin-bottom: 30px;
-    padding-top:20px;
-    
+    padding-top: 20px;
+
 }
-.artrow img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.artcontainer{
+    padding-bottom:50px;
 }
-.recart img{
-    width:330px;
-    height:305px;
+
+.artrow img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.miniart img{
-    width:320px;
-    height:285px;
+
+.recart img {
+    width: 330px;
+    height: 305px;
+}
+
+.miniart img {
+    width: 320px;
+    height: 285px;
     /*padding-top:5px;*/
 }
-h4{
-    padding-top:20px;
+
+h4 {
+    padding-top: 20px;
     /*text-align:center;*/
     font-family: 'Courgette', cursive;
-    
+
 }
-footer{
-    padding-top:80px;
+
+footer {
+    padding-top: 80px;
 }
-.footicon{
-   text-align:center; 
-   font-family: 'Courgette', cursive;
-   font-size: 22px;
-}
-.footer_social {
-     
-   color:black;
+
+.footicon {
+    text-align: center;
+    font-family: 'Courgette', cursive;
     font-size: 40px;
+}
+
+.footer_social {
+
+    color: black;
+    /*font-size: 40px;*/
+
+    margin-left: auto;
+    margin-right: auto;
+
+    /*width: 50%;*/
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .nav-item {
+        display: inline-block;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .spacer {
+
+        height: 180px;
+    }
+    .navbar-brand {
+
+        padding-left: 15px;
+    }
+    #landing-view {
+        height: 25vh;
+        background-image: none;
+    }
+    .headercontainer {
+    padding-left: 20px;
+}
+    .title {
+    font-size: 20px;
+
+}
+
+.name {
+    font-size: 35px;
+}
+.aboutsectionhead {
+        
+    padding-top: 150px;
+    }
+    .projects p {
+        display: none;
+    }
+    .aboutrow img {
+        
+        height: 300px;
+        width: 400px;
+
+    }
+    .sectionhead {
+    padding-top: 50px;
+    }
+    .artrow img {
+        width:60%;
+        height:85%;
+    }
+    .miniart img {
     
-  margin-left: auto;
-  margin-right: auto;
- 
-  /*width: 50%;*/
+    height:90%;
+   
+}
+
 }
 
 @media only screen and (max-width: 768px) {
-.navbar{
-   text-align:left;
+    .navbar {
+        text-align: left;
+    }
+    #landing-view {
+        background-image: none;
+    }
+     .spacer {
+
+        height: 110px;
+    }
+    .navbar-brand {
+
+        padding-left: 15px;
+    }
+    .headercontainer {
+    padding-left: 10px;
 }
+    .title {
+    font-size: 20px;
+
+}
+
+.name {
+    font-size: 30px;
+}
+    #landing-view {
+        height: 10vh;
+        background-image: none;
+    }
+    .projects p {
+        display: none;
+    }
+   
+    .discri{
+        font-size:14px;
+    }
+    .aboutsectionhead {
+        font-size:20px;
+    padding-top: 150px;
+    }
+     .aboutrow img {
+        
+        height: 150px;
+        width:210px;
+
+    }
+    .sectionhead{
+        font-size:20px;
+        padding-top: 20px;
+    }
+    .projects{
+        height:50px;
+    }
+    .projects img{
+        display: none;
+    }
+    .skills{
+        flex-wrap: nowrap;
+         font-size:15px;
+    }
+    
+    .artrow img {
+        width:40%;
+        height:65%;
+    }
+    .miniart img {
+    
+    height:70%;
+   
+}
+footer {
+    padding-top: 40px;
+}
+
+.footicon {
+    font-size: 20px;
+    flex-wrap: nowrap;
+}
+/*.artrow img {*/
+/*        width:35%;*/
+/*        height:60%;*/
+/*    }*/
+
+/* .artrow {*/
+        /*width:60%;*/
+        /*height:85%;*/
+        /*flex-wrap: nowrap;*/
+/*    }*/
+/*    .arthead{*/
+/*        font-size:20px;*/
+/*    }*/
+/*    .miniarthead{*/
+/*        font-size:20px;*/
+/*    }*/
+
 }
