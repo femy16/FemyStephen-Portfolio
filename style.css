@@ -68,10 +68,11 @@ body {
 #about {
     padding-bottom: 20px;
 }
- .aboutsectionhead {
-   padding-top: 80px;
+
+.aboutsectionhead {
+    padding-top: 80px;
     font-family: 'Courgette', cursive;
-    }
+}
 
 .sectionhead {
     padding-top: 80px;
@@ -157,8 +158,9 @@ li {
     padding-top: 20px;
 
 }
-.artcontainer{
-    padding-bottom:50px;
+
+.artcontainer {
+    padding-bottom: 50px;
 }
 
 .artrow img {
@@ -199,13 +201,16 @@ footer {
 
     color: black;
     /*font-size: 40px;*/
-
     margin-left: auto;
     margin-right: auto;
 
     /*width: 50%;*/
 }
 
+.art-foot {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
 
 @media only screen and (max-width: 1024px) {
 
@@ -228,53 +233,53 @@ footer {
         background-image: none;
     }
     .headercontainer {
-    padding-left: 20px;
-}
+        padding-left: 20px;
+    }
     .title {
-    font-size: 20px;
+        font-size: 20px;
 
-}
+    }
 
-.name {
-    font-size: 35px;
-}
-.aboutsectionhead {
-        
-    padding-top: 150px;
+    .name {
+        font-size: 35px;
+    }
+    .aboutsectionhead {
+
+        padding-top: 150px;
     }
     .projects p {
         display: none;
     }
     .aboutrow img {
-        
+
         height: 300px;
         width: 400px;
 
     }
     .sectionhead {
-    padding-top: 50px;
+        padding-top: 50px;
     }
     .artrow img {
-        width:60%;
-        height:85%;
+        width: 60%;
+        height: 85%;
     }
     .miniart img {
-    
-    height:90%;
-   
-}
+
+        height: 90%;
+
+    }
 
 }
 
 @media only screen and (max-width: 768px) {
-   
+
     .navbar {
         text-align: left;
     }
     #landing-view {
         background-image: none;
     }
-     .spacer {
+    .spacer {
 
         height: 110px;
     }
@@ -283,16 +288,16 @@ footer {
         padding-left: 15px;
     }
     .headercontainer {
-    padding-left: 10px;
-}
+        padding-left: 30px;
+    }
     .title {
-    font-size: 20px;
+        font-size: 20px;
 
-}
+    }
 
-.name {
-    font-size: 30px;
-}
+    .name {
+        font-size: 30px;
+    }
     #landing-view {
         height: 10vh;
         background-image: none;
@@ -300,88 +305,103 @@ footer {
     .projects p {
         display: none;
     }
-   
-    .discri{
-        font-size:18px;
+
+    .discri {
+        font-size: 18px;
     }
     .aboutsectionhead {
-        font-size:20px;
-    padding-top: 150px;
+        font-size: 20px;
+        padding-top: 155px;
     }
-     .aboutrow img {
-        
+    .aboutrow img {
+
         height: 250px;
-        width:310px;
+        width: 310px;
 
     }
-    .sectionhead{
-        font-size:20px;
+    .sectionhead {
+        font-size: 20px;
         padding-top: 20px;
     }
-    .projects{
-        height:50px;
+    .projects {
+        height: 50px;
     }
-    .projects img{
+    .projects img {
         display: none;
     }
-    .skills{
+    .skills {
         flex-wrap: nowrap;
-         font-size:15px;
-    }
-    
-    .artrow img {
-        width:40%;
-        height:65%;
-    }
-    .miniart img {
-    
-    height:70%;
-   
-}
-footer {
-    padding-top: 40px;
-}
-
-.footicon {
-    font-size: 20px;
-    flex-wrap: nowrap;
-}
-/*.artrow img {*/
-/*        width:35%;*/
-/*        height:60%;*/
-/*    }*/
-
-/* .artrow {*/
-        /*width:60%;*/
-        /*height:85%;*/
-        /*flex-wrap: nowrap;*/
-/*    }*/
-    .arthead{
-        font-size:25px;
-    }
-    .miniarthead{
-        font-size:25px;
+        font-size: 15px;
     }
 
+    /*.artrow img {*/
+    /*    width:40%;*/
+    /*    height:65%;*/
+    /*}*/
+    /*    .miniart img {*/
+    /*    height:70%;*/
+    /*}*/
+    footer {
+        padding-top: 40px;
+    }
+
+    .footicon {
+        font-size: 20px;
+        flex-wrap: nowrap;
+    }
+    .longart {
+        padding-bottom: 30px;
+    }
+    /*.artrow img {*/
+    /*        width:35%;*/
+    /*        height:60%;*/
+    /*    }*/
+    /* .artrow {*/
+    /*width:60%;*/
+    /*height:85%;*/
+    /*flex-wrap: nowrap;*/
+    /*    }*/
+    .arthead {
+        font-size: 25px;
+    }
+    .miniarthead {
+        font-size: 25px;
+    }
+
 }
+
 @media only screen and (max-width: 479px) {
     .aboutrow img {
-        
+
         height: 150px;
-        width:210px;
+        width: 210px;
 
     }
-     .discri{
-        font-size:15px;
+    .discri {
+        font-size: 15px;
     }
-    .arthead{
-        font-size:20px;
+    .arthead {
+        font-size: 20px;
     }
-    .miniarthead{
-        font-size:20px;
+    .miniarthead {
+        font-size: 20px;
     }
-    .skills{
+    .skills {
         flex-wrap: nowrap;
-         font-size:15px;
+        font-size: 15px;
+    }
+    .longart {
+        padding-bottom: 20px;
+    }
+    .artrow img {
+        width: 45%;
+        height: 90%;
+    }
+    footer {
+        padding-top: 30px;
+    }
+
+    .art-foot {
+        padding-bottom: 40px;
     }
 }
